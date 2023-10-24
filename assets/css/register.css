@@ -1,0 +1,55 @@
+.register-section {
+	padding: 40px;
+	background: linear-gradient(to bottom right, #f0f0f0, #eaeaea);
+	color: #000;
+	position: relative;
+}
+
+.register-section header * {
+	color: black;
+}
+
+.register-section h4 {
+	color: black;
+}
+
+.register-section input {
+	background-color: transparent;
+	border-color: black;
+	border-width: 2px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: grey;
+}
+
+.register-section input, .register-section input::before, .register-section input::after,
+.register-section select, .register-section select::before, .register-section select::after,
+.register-section textarea, .register-section textarea::before, .register-section textarea::after {
+	user-select: initial;
+	-webkit-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+}
+
+.register-section textarea {
+	font-size: 14px;
+	border: 2px solid black;
+	background-color: transparent;
+	max-width: 100%;
+	min-width: 33%;
+	min-height: 100px;
+	margin-bottom: 20px;
+}
+
+.register-section input[type="submit"] {
+	background-color: rgba(255, 155, 0, 0.5);
+	transition: background-color 250ms;
+	border-color: black;
+	box-shadow: inset 0 0 0 1px #000;
+	color: black !important;
+	width: 100%;
+}
+
+.register-section input[type="submit"]:hover {
+	background-color: rgba(255, 155, 0, 1);
+}
