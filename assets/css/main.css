@@ -4080,7 +4080,7 @@ body.landing #header {
 
 #banner {
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: top;
 	background-size: cover;
 	-webkit-background-size: auto 130%;
 	-webkit-background-attachment: scroll;
@@ -4098,6 +4098,8 @@ body.landing #header {
 	vertical-align: middle;
 	width: 1%;
 }
+
+/* for main bg opacity screen------------
 
 /* #banner:not(.comban)::after {
 	background-color: rgba(0, 0, 20, 0.4);
