@@ -4082,7 +4082,7 @@ body.landing #header {
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
-	-webkit-background-size: auto 116%;
+	-webkit-background-size: auto 130%;
 	-webkit-background-attachment: scroll;
 	background-repeat: no-repeat;
 
@@ -4128,7 +4128,7 @@ body.landing #header {
 }
 
 #banner .content header h2 {
-	font-size: 6.5em;
+	font-size: 4.5em;
 	font-weight: 800;
 	margin: 0;
 	transition: font-size 250ms ease;
@@ -4137,13 +4137,13 @@ body.landing #header {
 @media (max-width: 1260px)
 {
 	#banner .content header h2 {
-		font-size: 5em;
+		font-size: 3em;
 	}
 }
 
 @media (max-width: 1010px) {
 	#banner .content header h2 {
-		font-size: 4.5em;
+		font-size: 2.5em;
 	}
 }
 
