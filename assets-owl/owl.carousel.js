@@ -2526,7 +2526,7 @@
 	 * @public
 	 */
 	Animate.Defaults = {
-		animateOut: false,
+		animateOut: true,
 		animateIn: true
 	};
 
@@ -2721,7 +2721,7 @@
 	Autoplay.Defaults = {
 		autoplay: true,
 		autoplayTimeout: 2500,
-		autoplayHoverPause: false,
+		autoplayHoverPause: true,
 		autoplaySpeed: false
 	};
 

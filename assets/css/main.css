@@ -3187,7 +3187,7 @@ input[type="button"]:disabled,
 	color: black;
 	margin-bottom: 0;
 	font-size: 25px;
-	font-weight: 600;3rd-18th june
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -4099,7 +4099,7 @@ body.landing #header {
 	width: 1%;
 }
 
-#banner:not(.comban)::after {
+/* #banner:not(.comban)::after {
 	background-color: rgba(0, 0, 20, 0.4);
 	background: linear-gradient(to bottom right, rgba(0, 0, 10, 0.4) 10%, rgba(10, 15, 20, 0.7) 90%);
 	content: '';
@@ -4109,7 +4109,7 @@ body.landing #header {
 	position: absolute;
 	top: 0;
 	width: 100%;
-}
+} */
 
 #banner .content {
 	display: inline-block;
@@ -4128,7 +4128,7 @@ body.landing #header {
 }
 
 #banner .content header h2 {
-	font-size: 4.5em;
+	font-size: 5.0em;
 	font-weight: 800;
 	margin: 0;
 	transition: font-size 250ms ease;
