@@ -728,6 +728,7 @@ body.landing:before {
 
 .row {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
@@ -971,6 +972,7 @@ body.landing:before {
 
 	.row {
 		display: flex;
+		justify-content: center;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
