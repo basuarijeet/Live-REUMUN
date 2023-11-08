@@ -10,7 +10,7 @@ function everySecond(){
    hr = document.getElementById('clock-hours');
    day = document.getElementById('clock-days');
    startDate = new Date(2023, 10, 7, 9, 0);
-   endDate = new Date(2023, 10, 8, 21, 0);
+   endDate = new Date(2023, 10, 8, 19, 0);
   }
   time = startDate-new Date();
   if(time/1000 <= 0) {
